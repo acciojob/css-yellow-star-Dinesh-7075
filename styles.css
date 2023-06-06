@@ -19,7 +19,8 @@ body {
 	width: 0;
 	height: 0;
 	border-right: 100px solid transparent;
-	border-bottom: 70px solid yellow;
+/* 	border-bottom: 70px solid yellow; */
+	border-bottom:100px solid rgb(255, 255, 0);
 	border-left: 100px solid transparent;
 	transform: rotate(35deg);
 }
@@ -41,6 +42,7 @@ body {
 .star:before {
 	border-right: 100px solid transparent;
 	border-bottom: 70px solid yellow;
+/* 	border-bottom:100px solid rgb(255, 255, 0); */
 	border-left: 100px solid transparent;
 	position: absolute;
 	content: '';
